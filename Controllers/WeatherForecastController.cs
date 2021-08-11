@@ -13,7 +13,7 @@ namespace WeatherApiWithTerraform.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing !", "Super bracing", "Mega chilly", " Kinda Cool", "Very Mild", " Reeaaaal Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
